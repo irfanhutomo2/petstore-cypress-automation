@@ -1,0 +1,26 @@
+{
+  "cat1": {
+    "id": 10001,
+    "category": {"id": 1, "name": "cat"},
+    "name": "Cat1",
+    "photoUrls": ["cat1.png"],
+    "tags": [{"id": 1, "name": "cat"}],
+    "status": "available"
+  },
+  "cat2": {
+    "id": 10002,
+    "category": {"id": 2, "name": "cat"},
+    "name": "Cat2",
+    "photoUrls": ["cat2.png"],
+    "tags": [{"id": 2, "name": "cat"}],
+    "status": "pending"
+  },
+  "invalid_no_name": {
+    "id": 10003,
+    "category": {"id": 1, "name": "cat"},
+    "photoUrls": ["catx.png"],
+    "tags": [{"id": 1, "name": "cat"}],
+    "status": "available"
+  },
+  "invalid_string_id": "notanumber"
+}
