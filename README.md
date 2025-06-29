@@ -12,14 +12,14 @@ Project ini adalah automation testing untuk API [Petstore Swagger](https://petst
 
 ## Cara Menjalankan Automation
 
-1. **Install:**
+1. Install:
 
-npm install cypress --save-dev
-npm install mochawesome mochawesome-merge mochawesome-report-generator --save-dev
+    npm install cypress --save-dev
+    npm install mochawesome mochawesome-merge mochawesome-report-generator --save-dev
 
-    2.	Jalankan semua test:
+2.	Jalankan semua test:
 
-npx cypress run
+    npx cypress run
 
-    4.	Buka hasil HTML report:
-    •	File: cypress/reports/merged-report.html
+4.	Buka hasil HTML report:
+     •	File: cypress/reports/merged-report.html
