@@ -8,7 +8,6 @@ Project ini adalah automation testing untuk API [Petstore Swagger](https://petst
 
 - Cypress (API testing - JavaScript/Node.js)
 - Mochawesome (HTML reporter)
-- Semua dependency ada di `package.json`
 
 ## Cara Menjalankan Automation
 
